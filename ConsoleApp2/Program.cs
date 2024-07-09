@@ -15,6 +15,7 @@ namespace ConsoleApp2
             int b = 20;
             int sum = a + b;
             Console.WriteLine(sum);
+            Console.WriteLine("Multiplication is "+a*b);
         }
     }
 }
