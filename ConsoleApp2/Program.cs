@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,8 @@ namespace ConsoleApp2
             int b = 20;
             int sum = a + b;
             Console.WriteLine(sum);
+            Console.WriteLine("Multiplicatin is "+a*b);
+            Console.WriteLine("hello worlds");
         }
     }
 }
