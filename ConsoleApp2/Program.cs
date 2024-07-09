@@ -11,6 +11,10 @@ namespace ConsoleApp2
         static void Main(string[] args)
         {
             Console.WriteLine("hello world");
+            int a = 10;
+            int b = 20;
+            int sum = a + b;
+            Console.WriteLine(sum);
         }
     }
 }
